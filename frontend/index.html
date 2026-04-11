@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MeetingMind AI</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      🧠 MeetingMind <span class="logo-badge">AI</span>
+    </div>
+    <div class="header-right">
+      <div class="status-dot"></div>
+      <span class="status-text">Live</span>
+    </div>
+  </header>
+
+  <!-- APP LAYOUT -->
+  <div class="layout">
+    <nav class="sidebar" id="sidebar"></nav>
+    <main class="main" id="main-content"></main>
+  </div>
+
+  <!-- SCRIPTS (load order matters) -->
+  <script src="js/api.js"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/analyze.js"></script>
+  <script src="js/results.js"></script>
+  <script src="js/history.js"></script>
+  <script src="js/actions.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

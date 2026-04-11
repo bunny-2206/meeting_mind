@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+openai-whisper
+groq
+slack-sdk
+jira
+secure-smtplib
+python-dotenv
+requests
+torch

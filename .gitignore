@@ -1,0 +1,31 @@
+# Environments
+.env
+.env.*
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.pytest_cache/
+
+# Node
+node_modules/
+package-lock.json
+
+# Audio and Temp folders
+backend/temp_*.webm
+backend/temp_*.mp3
+backend/temp_*.wav
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
